@@ -1,0 +1,72 @@
+body
+{
+  font-family: 'Raleway', sans-serif;
+}
+
+header
+{
+  display: flex;
+}
+
+.top_menu
+{
+  color: #0065FC;
+  width: 100%;
+  display: flex;
+}
+
+.top_menu a:nth-child(1)
+{
+  margin-left: auto;
+}
+
+.menu_item
+{
+  display: inline-block;
+  padding: 1%;
+  border-top: 2px solid white;
+  text-decoration: none;
+}
+
+.menu_item:hover
+{
+  border-top: 2px solid #0065FC;
+}
+
+.search_container
+{
+  display: flex;
+}
+
+.search_button
+{
+  border: none;
+  color: white;
+  background-color: #0065FC;
+  border-radius: 0 10px 10px 0;
+}
+
+.icon
+{
+  padding: 10px;
+  background-color: #F2F2F2;
+  width: 20px;
+  height: 20px;
+  border-radius: 30% 0% 0% 30%;
+}
+
+.filters .icon
+{
+  content: '\f53a';
+  border-radius: 50%;
+}
+
+.filters
+{
+  display: flex;
+}
+
+.bold
+{
+  font-weight: bold;
+}
