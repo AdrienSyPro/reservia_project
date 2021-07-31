@@ -29,6 +29,11 @@ body
   width: 100%;
 }
 
+img
+{
+  object-fit: cover;
+}
+
 /* Icones ----------------- */
 .icon
 {
@@ -264,6 +269,11 @@ header
   box-shadow: 3px 3px 6px #e4dbdb;
 }
 
+.plus-populaires-element
+{
+  cursor: pointer;
+}
+
 .plus-populaires-element-text
 {
   padding-left: 18px;
@@ -307,6 +317,11 @@ header
   box-shadow: 3px 3px 6px #e4dbdb;
 }
 
+.activites-a-marseille-element:hover
+{
+  cursor: pointer;
+}
+
 .activites-a-marseille-element-superpose-container
 {
   width: 20%;
@@ -325,6 +340,11 @@ header
   box-shadow: 3px 3px 6px #e4dbdb;
 }
 
+.activites-a-marseille-element-superpose-1:hover
+{
+  cursor: pointer;
+}
+
 .activites-a-marseille-element-superpose-2
 {
   border-radius: 20px;
@@ -332,6 +352,11 @@ header
   display: flex;
   flex-direction: column; 
   box-shadow: 3px 3px 6px #e4dbdb;
+}
+
+.activites-a-marseille-element-superpose-2:hover
+{
+  cursor: pointer;
 }
 
 .activites-a-marseille-element-image-1
