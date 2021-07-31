@@ -9,6 +9,11 @@ body
   font-weight: bold;
 }
 
+.margin-0
+{
+  margin: 0;
+}
+
 .flex
 {
   display: flex;
@@ -101,6 +106,12 @@ header
   display: flex;
 }
 
+.search_container i:hover
+{
+  cursor: pointer;
+  background-color: #e4dbdb;
+}
+
 .search_container input
 {
   font-weight: bold;
@@ -123,6 +134,7 @@ header
 .search_button:hover
 {
   cursor: pointer;
+  background-color: #277bfa;
 }
 
 /* Filtres ----------------- */
@@ -158,6 +170,7 @@ header
 .filters-element:hover
 {
   cursor: pointer;
+  background-color: #DEEBFF;
 }
 
 .filters-element i
@@ -193,11 +206,12 @@ header
 
 .hebergements-a-marseille-element
 {
-  width: 30%;
+  width: 25%;
   padding: 5px;
   border-radius: 20px;
   background-color: white;
   margin-bottom: 3%;
+  box-shadow: 3px 3px 6px #e4dbdb;
 }
 
 
@@ -227,8 +241,136 @@ header
   background-color: #F2F2F2;
 }
 
+.plus-populaires-title
+{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.plus-populaires-title h2:last-of-type
+{
+  margin-left: auto;
+}
+
+.plus-populaires-element
+{
+  display: flex;
+  height: 25%;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 3%;
+  box-shadow: 3px 3px 6px #e4dbdb;
+}
+
+.plus-populaires-element-text
+{
+  padding-left: 18px;
+  margin: 0 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.plus-populaires-element-text div:last-of-type
+{
+  margin-top: auto;
+}
+
+.plus-populaires-image
+{
+  width: 30%;
+  border-radius: 20px 0 0 20px;
+}
+
 /* Activités à Marseille ----------------- */
 .activites-a-marseille
 {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.activites-a-marseille-element-container
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.activites-a-marseille-element
+{
+  width: 20%;
+  height: 500px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 6px #e4dbdb;
+}
+
+.activites-a-marseille-element-superpose-container
+{
+  width: 20%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.activites-a-marseille-element-superpose-1
+{
+  border-radius: 20px;
+  height: 50%;
+  display: flex;
+  flex-direction: column; 
+  box-shadow: 3px 3px 6px #e4dbdb;
+}
+
+.activites-a-marseille-element-superpose-2
+{
+  border-radius: 20px;
+  height: 40%;
+  display: flex;
+  flex-direction: column; 
+  box-shadow: 3px 3px 6px #e4dbdb;
+}
+
+.activites-a-marseille-element-image-1
+{
+  width: 100%;
+  height: 90%;
+  border-radius: 20px 20px 0 0;
+}
+
+.activites-a-marseille-element-image-2
+{
+  width: 100%;
+  height: 80%;
+  border-radius: 20px 20px 0 0;
+}
+
+.activites-a-marseille-element-image-3
+{
+  width: 100%;
+  height: 75%;
+  border-radius: 20px 20px 0 0;
+}
+
+/* ----------------- FOOTER ----------------- */
+footer
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: #F2F2F2;
+}
+
+.footer-element
+{
+  width: 30%;
+  margin: 2%;
+}
+
+.footer-element a
+{
+  text-decoration: none;
+  color: black;
 }
