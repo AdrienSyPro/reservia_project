@@ -597,3 +597,46 @@ footer
     width: 100%;
   }
 }
+
+/* Mobile ----------------- */
+@media (min-width: 668px) and (max-width: 1024px)
+{
+  .filters
+  {
+    flex-wrap: wrap;
+  }
+
+  .filters-title
+  {
+    width: 100%;
+  }
+
+  .hebergements-a-marseille
+  {
+    width: 100%;
+  }
+
+  .hebergements-a-marseille-element
+  {
+    width: 30%;
+  }
+
+  .plus-populaires
+  {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .activites-a-marseille-element-container
+  {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .activites-a-marseille-element,
+  .activites-a-marseille-element-superpose-container
+  {
+    width: 45%;
+    margin-top: 30px;
+  }
+}
