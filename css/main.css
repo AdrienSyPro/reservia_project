@@ -73,6 +73,11 @@ img
 }
 
 /* ----------------- HEADER ----------------- */
+#header-mobile
+{
+  display: none;
+}
+
 header
 {
   display: flex;
@@ -106,6 +111,11 @@ header
 /* ----------------- MAIN CONTENT ----------------- */
 
 /* Recherche ----------------- */
+#search-button-mobile
+{
+  display: none;
+}
+
 .search_container
 {
   display: flex;
@@ -398,4 +408,191 @@ footer
 {
   text-decoration: none;
   color: black;
+}
+
+/* ----------------- MEDIA QUERIES ----------------- */
+
+/* Mobile ----------------- */
+@media (max-width: 667px)
+{
+  #header-desktop
+  {
+    display: none;
+  }
+
+  #header-mobile
+  {
+    display: block;
+  }
+
+  #header-mobile-first-part
+  {
+    display: flex;
+    align-items: center;
+  }
+
+  #header-mobile #header-mobile-first-part a:nth-child(2)
+  {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 20px;
+    color: #0065FC;
+  }
+
+  #header-mobile-second-part
+  {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  #header-mobile-second-part a
+  {
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: #F2F2F2 solid;
+    padding: 5%;
+    width: 50%;
+    text-align: center;
+  }
+
+  #header-mobile-second-part a:hover
+  {
+    color: #0065FC;
+    border-bottom: #0065FC solid;
+  }
+
+  .search_container
+  {
+    justify-content: center;
+  }
+
+  .search_button
+  {
+    display: none;
+  }
+
+  #search-button-mobile
+  {
+    display: block;
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    border-radius: 20%;
+    padding: 10px;
+    margin-left: -5px;
+  }
+
+  .filters
+  {
+    flex-wrap: wrap;
+  }
+
+  .filters-title
+  {
+    width: 100%;
+  }
+
+  .filters-elements
+  {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .filters-elements .filters-element:nth-child(1)
+  {
+    width: 40%;
+  }
+  .filters-elements .filters-element:nth-child(2)
+  {
+    width: 35%;
+  }
+
+  .filters-elements .filters-element:nth-child(3)
+  {
+    width: 40%;
+  }
+
+  .filters-elements .filters-element:nth-child(4)
+  {
+    width: 55%;
+  }
+
+  .section-centrale-element
+  {
+    width: 100%;
+  }
+
+  .section-centrale .section-centrale-element:nth-child(1)
+  {
+    order: 2;
+    flex-direction: column;
+    background-color: white;
+  }
+
+  .hebergements-a-marseille-element
+  {
+    width: 100%;
+    padding-bottom: 5px;
+  }
+
+  .section-centrale .section-centrale-element:nth-child(2)
+  {
+    order: 1;
+  }
+
+  .section-centrale .section-centrale-element:nth-child(3)
+  {
+    order: 3;
+  }
+
+  .activites-a-marseille-element-container
+  {
+    flex-direction: column;
+  }
+
+  .activites-a-marseille-element,
+  .activites-a-marseille-element-superpose-container
+  {
+    width: 100%;
+    justify-content: start;
+    margin-bottom: 30px;
+  }
+
+  .activites-a-marseille-element-superpose-container
+  {
+    height: 600px;
+  }
+
+  .activites-a-marseille-element
+  {
+    height: 300px;
+  }
+
+  .activites-a-marseille-element-superpose-1,
+  .activites-a-marseille-element-superpose-2
+  {
+    margin-bottom: 30px;
+    height: 300px;
+  }
+
+  .activites-a-marseille-element-image-1,
+  .activites-a-marseille-element-image-2,
+  .activites-a-marseille-element-image-3
+  {
+    height: 85%;
+  }
+
+  footer
+  {
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .footer-element
+  {
+    width: 100%;
+  }
 }
